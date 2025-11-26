@@ -1,0 +1,55 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.card h3 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border: 2px solid var(--EtecSounD-Traado, #3EB985);
+    border-radius: 22px 8px 22px 8px;
+    padding: 16px;
+}
+
+.music-cover {
+    border-radius: 22px;
+    border: 2px solid var(--EtecSounD-Traado, #3EB985);
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.container-info {
+    display: flex;
+    color: #f4f4f4;
+    flex-direction: column;
+}
+
+.music-title {
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.artist-profile {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    padding: 40px 32px;
+}

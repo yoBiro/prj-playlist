@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Spotify Mix';
+    src: url('/path/to/spotify-mix.woff2') format('woff2'),
+    url('/path/to/spotify-mix.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(ellipse at top left, #0D482F 0%, #08844F 100%);
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #222;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    background-color {
+        color: #22c64e;
+        
+    } ;
+}
